@@ -43,8 +43,8 @@ User question --> Query embedding --------|
 | PDF parsing | PyMuPDF |
 | Orchestration | LangChain |
 | Vector database | ChromaDB |
-| Embeddings | `<embedding model you used>` |
-| LLM | `<LLM API you used>` |
+| Embeddings | EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"|
+| LLM | Anthropic |
 | Interface | Streamlit |
 
 ## Project Structure
@@ -103,5 +103,6 @@ Datasheets belong to their respective manufacturers. This project is for educati
 ## Author
 
 Shivam Kumar
-B.Tech, Electronics and Communication Engineering, IIT (ISM) Dhanbad
+B.Tech:- Electronics and Communication Engineering 
+IIT (ISM) Dhanbad
 
