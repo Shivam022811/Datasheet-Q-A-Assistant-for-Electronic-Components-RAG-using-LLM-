@@ -49,7 +49,7 @@ def answer(question):
     if not docs:
         return "No datasheets are indexed yet. Run ingestion first.", []
 
-    llm = ChatAnthropic(model=LLM_MODEL, temperature=0, max_tokens=1024)
+    llm = ChatAnthropic(model=LLM_MODEL, max_tokens=1024)
     chain = prompt | llm | StrOutputParser()
     text = chain.invoke({"context": format_context(docs), "question": question})
     return text, docs
