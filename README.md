@@ -98,5 +98,6 @@ Datasheets belong to their respective manufacturers. This project is for educati
 ## Author
 
 Shivam Kumar
-B.Tech, Electronics and Communication Engineering, IIT (ISM) Dhanbad
+B.Tech:- Electronics and Communication Engineering 
+IIT (ISM) Dhanbad
 
