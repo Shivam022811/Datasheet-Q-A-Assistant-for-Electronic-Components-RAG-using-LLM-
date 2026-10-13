@@ -62,49 +62,6 @@ datasheet-qa-assistant/
 ├── .env.example
 └── README.md
 ```
-
-Adjust the file names above to match your actual repository.
-
-## Setup
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/<your-username>/datasheet-qa-assistant.git
-cd datasheet-qa-assistant
-```
-
-2. Create a virtual environment and install dependencies
-
-```bash
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-3. Add your API key
-
-```bash
-cp .env.example .env
-# edit .env and add your key
-```
-
-4. Add datasheets
-
-Place the PDF datasheets in `data/datasheets/` (for example AT89C51, ATmega328P, LM358, LM7805).
-
-5. Build the vector store
-
-```bash
-python src/ingest.py
-```
-
-6. Run the app
-
-```bash
-streamlit run app.py
-```
-
 ## Example Queries
 
 - What is the operating voltage range of the ATmega328P?
