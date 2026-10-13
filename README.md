@@ -62,6 +62,11 @@ datasheet-qa-assistant/
 ├── .env.example
 └── README.md
 ```
+
+## Screenshots
+
+![alt text](<Screenshot 2026-10-13 at 11.46.26 PM.png>) ![alt text](<Screenshot 2026-10-13 at 11.46.22 PM.png>) ![alt text](<Screenshot 2026-10-13 at 11.46.15 PM.png>) ![alt text](<Screenshot 2026-10-13 at 11.46.07 PM.png>) ![alt text](<Screenshot 2026-10-13 at 11.45.56 PM.png>) ![alt text](<Screenshot 2026-10-13 at 11.45.50 PM.png>) ![alt text](<Screenshot 2026-10-13 at 11.45.43 PM.png>) ![alt text](<Screenshot 2026-10-13 at 11.45.34 PM.png>)
+
 ## Example Queries
 
 - What is the operating voltage range of the ATmega328P?
